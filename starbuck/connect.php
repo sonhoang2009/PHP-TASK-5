@@ -20,7 +20,8 @@ for ($j=0 ; $j < $rows ; ++$j)
     echo 'Year: ' .$result->fetch_assoc()['year'] .'<br>';
     $result->data_seek($j);
     echo 'Price: ' .$result->fetch_assoc()['price'] .'<br>';
-
+    $result->data_seek($j);
+    echo 'IMG: ' .$result->fetch_assoc()['img'] .'<br>';
 
 
 }

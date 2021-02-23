@@ -6,12 +6,13 @@ CREATE TABLE coffee(
     name varchar (200),
     type varchar (200),
     year char (4),
-    price char (4)
+    price char (4),
+    img varchar(100)
 );
 
 INSERT INTO coffee VALUE
-('1001A','Asian Dolce','Frappuccino',2000,9.5),
-('1001B','Espresso','Frappuccino',2001,10.5),
-('1001C','Caramel ','Frappuccino',2002,11.5),
-('1001D','Mocha','Frappuccino',2003,8.5),
-('1001E','Java Chip','Frappuccino',2004,7.5);
+('1001A','Asian Dolce','Frappuccino',2000,9.5,'<img src=\"cf1.jpg\" height=\"250\" width=\"250\">'),
+('1001B','Espresso','Frappuccino',2001,10.5,'<img src=\"cf2.jpg\" height=\"250\" width=\"250\">'),
+('1001C','Caramel ','Frappuccino',2002,11.5,'<img src=\"cf3.jpg\" height=\"250\" width=\"250\">'),
+('1001D','Mocha','Frappuccino',2003,8.5,'<img src=\"cf4.jpg\" height=\"250\" width=\"250\">'),
+('1001E','Java Chip','Frappuccino',2004,7.5,'<img src=\"cf5.jpg\" height=\"250\" width=\"250\">');
